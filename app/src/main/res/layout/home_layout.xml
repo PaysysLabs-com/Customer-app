@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/layoutColor"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rela_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_textAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="30dp"
+                android:text="@string/available_balance"/>
+
+            <TextView
+                android:id="@+id/tv_Amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/tv_textAmount"
+                android:paddingLeft="30dp"
+                android:text="@string/na"/>
+
+            <TextView
+                android:id="@+id/tv_textactualBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="30dp"
+                android:layout_below="@+id/tv_Amount"
+                android:text="@string/actual_Balance"/>
+
+            <TextView
+                android:id="@+id/tv_actualBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/tv_textactualBalance"
+                android:paddingLeft="30dp"
+                android:text="@string/na"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_topup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg_white"
+                android:layout_marginRight="20dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="15dp"
+                android:textSize="10dp"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:layout_marginBottom="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/iv_cross"
+                android:textColor="@color/btncolor"
+                android:text="@string/top_up"/>
+
+        </RelativeLayout>
+
+    <include
+        android:id="@+id/card_layout"
+        layout="@layout/card_layout"
+        android:layout_below="@+id/rela_header"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_transferce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_layout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_bg_white"
+            android:drawableLeft="@drawable/ic_transfer_green"
+            android:drawablePadding="-30dp"
+            android:paddingLeft="20dp"
+            android:text="@string/transfer"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/btncolor" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_qr_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/btncolor"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_qr_green"
+        android:paddingLeft="20dp"
+        android:drawablePadding="-30dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/btn_transferce"
+        android:layout_marginTop="10dp"
+        android:text="@string/qr_pay"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_Payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_qr_pay"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_bg_white"
+            android:drawableLeft="@drawable/ic_payment_green"
+            android:drawablePadding="-30dp"
+            android:paddingLeft="20dp"
+            android:text="@string/Payment"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/btncolor" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_other_Services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/btncolor"
+        android:layout_below="@id/btn_Payment"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_other_green"
+        android:paddingLeft="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:drawablePadding="-30dp"
+        android:text="@string/other_services"/>
+
+  <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/card_bg"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/btn_other_Services">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:textColor="#dfdfdf"
+            android:text="Add Area"/>
+    </RelativeLayout>-->
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+
+\squid:S1192"FDefine a constant instead of duplicating this literal "ALIAS" 3 times.(©ú˜4
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ïç±©şÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( Ñ¿úÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ïç±©şÿÿÿÿ
+4squid:S2386"Make this member "protected".(¢…ÒÅ
+9squid:S2386"Make this member "protected".(Ÿá–¬ıÿÿÿÿ
+9squid:S2386	"Make this member "protected".(áîíÕøÿÿÿÿ
+3squid:S2386"Make this member "protected".(©ú˜4
+9squid:S2386"Make this member "protected".(ÃÇ»Çÿÿÿÿÿ
+4squid:S2386"Make this member "protected".(ˆ—¾

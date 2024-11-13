@@ -1,0 +1,11 @@
+
+Ksquid:S1068"(Remove this unused "body" private field.(ÐÒñãùÿÿÿÿ8ãíõÎî-
+Tsquid:S1068"1Remove this unused "jsonNotifyObj" private field.(ŒôÚ§ÿÿÿÿÿ8ãíõÎî-
+isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(¦ñ¡ž8ãíõÎî-
+Osquid:S1068",Remove this unused "TAG_NAME" private field.(Æç†±üÿÿÿÿ8ãíõÎî-
+ysquid:S3923-"[Remove this conditional structure or edit its code blocks so that they're not all the same.(üÔøØ8ãíõÎî-
+isquid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(ô™Ø—8ãíõÎî-
+Nsquid:S1135%"2Complete the task associated to this TODO comment.(˜Þ68ãíõÎî-
+Lsquid:S1068")Remove this unused "title" private field.(åõò¹ýÿÿÿÿ8ãíõÎî-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤Äå
+psquid:S00117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ü×Ó8ãíõÎî-

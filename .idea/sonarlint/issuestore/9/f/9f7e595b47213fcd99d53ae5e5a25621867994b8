@@ -1,0 +1,6 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è™Œ²üÿÿÿÿ
+ksquid:UselessImportCheck	";Remove this unused import 'androidx.fragment.app.Fragment'.(‚Š©“ùÿÿÿÿ8â¹§¸ã-
+Dsquid:S1170"!Make this final field static too.(†ğéüúÿÿÿÿ8ôê¸ã-
+jsquid:HiddenFieldCheck"<Rename "rootView" which hides the field declared at line 16.(Ú†Şûÿÿÿÿ8¾ê²ã-
+„squid:S00116"`Rename this field "SPLASH_DISPLAY_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ğéüúÿÿÿÿ8ôê¸ã-

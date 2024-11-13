@@ -1,0 +1,22 @@
+
+csquid:S1192:"GDefine a constant instead of duplicating this literal "[Rp,.]" 3 times.(“øšşùÿÿÿÿ
+@squid:S5411@"*Use the primitive boolean expression here.(À‘]
+Fsquid:S5411A"*Use the primitive boolean expression here.(ºÀ€µıÿÿÿÿ
+Fsquid:S5411G"*Use the primitive boolean expression here.(ºÀ€µıÿÿÿÿ
+Fsquid:S5411R"*Use the primitive boolean expression here.(ôœ¸Ûÿÿÿÿÿ
+Asquid:S5411]"*Use the primitive boolean expression here.(ä®¸é
+Fsquid:S5411z"*Use the primitive boolean expression here.(ôœ¸Ûÿÿÿÿÿ
+Gsquid:S5411‰"*Use the primitive boolean expression here.(ôœ¸Ûÿÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š“”Ñøÿÿÿÿ
+ksquid:S00116"SRename this field "Currency" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¢í©
+lsquid:S00116"TRename this field "Separator" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í œ®
+osquid:S00116"RRename this field "Spacing" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹â°ëøÿÿÿÿ
+qsquid:S00116"TRename this field "Delimiter" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÍ½úÿÿÿÿ
+ksquid:S00116"SRename this field "Decimals" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á®âì
+isquid:S3776-"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.( Üó
+˜squid:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+squid:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+dsquid:S5361_"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ğî‹§şÿÿÿÿ
+Fsquid:S00108e")Either remove or fill this block of code.(é–³öûÿÿÿÿ
+Gsquid:S00108€")Either remove or fill this block of code.(é–³öûÿÿÿÿ
+Gsquid:S00108")Either remove or fill this block of code.(é–³öûÿÿÿÿ

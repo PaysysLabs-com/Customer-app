@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/lnrpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="@string/otp_text" />
+
+            <com.mukesh.OtpView
+                android:id="@+id/pinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:inputType="numberPassword"
+                android:itemBackground="@color/white"
+                android:password="true"
+                android:textColor="@android:color/black"
+                app:itemCount="6"
+                app:lineColor="@color/btncolor"
+                app:viewType="rectangle" />
+
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="@string/didnt_receive_otp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/step3_btnResend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="@string/resend"
+                android:textSize="17dp"
+                android:textColor="@color/btncolor"
+                android:background="@drawable/button_transparnt_bg" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/graycolor"
+        android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnConfirmOTp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/next"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_bg" />
+    </LinearLayout>
+</RelativeLayout>
+

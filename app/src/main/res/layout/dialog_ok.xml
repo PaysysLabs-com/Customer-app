@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:alpha="170"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/tv_dlgHeader"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Please Ok to Continue"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:alpha="170"
+                />
+            <ImageView
+                android:id="@+id/btn_crossDialog"
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:alpha="170"
+                android:background="@mipmap/ic_cross"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#5f635f"
+            />
+
+        <View
+            android:layout_height="20dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/tv_dlgMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:text=""/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_okDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:text="@string/continue_btn"
+                android:background="@drawable/button_bg"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

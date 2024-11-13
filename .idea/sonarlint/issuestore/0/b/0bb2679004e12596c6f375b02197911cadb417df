@@ -1,0 +1,19 @@
+
+@squid:S3398Ð"(Move this method into "onClickListener".(®”€©
+psquid:S001164"XRename this field "LangUnderLine" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÍ€Ð
+Bsquid:S16591"&Declare "username" on a separate line.(åÈš…þÿÿÿÿ
+isquid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“–ªù
+Usquid:S4719~"9Replace charset name argument with StandardCharsets.UTF_8(ò¡ó‘øÿÿÿÿ
+Esquid:S3398½"(Move this method into "onClickListener".(ýäà¶þÿÿÿÿ
+csquid:CommentedOutCodeLine¯"<This block of commented-out lines of code should be removed.(Ûâ·­
+?squid:S3398l"(Move this method into "onClickListener".(‰‡çÃ
+ssquid:S1450."WRemove the "callback" field and declare it as a local variable in the relevant methods.(–Âïöûÿÿÿÿ
+V"squid:SwitchLastCaseIsDefaultCheck‘""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheckW""Add a default case to this switch.(ŽºÖ
+]squid:S3973d"GUse indentation to denote the code conditionally executed by this "if".(¶¹±O
+V"squid:SwitchLastCaseIsDefaultCheckâ""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+@squid:S1148€"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S3398q"(Move this method into "onClickListener".(ÓœÔô
+}squid:S1450/"fRemove the "callbackCreditUnionList" field and declare it as a local variable in the relevant methods.(ë†»Ç
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›œÍ®
+dsquid:S00101T"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ž¡ø

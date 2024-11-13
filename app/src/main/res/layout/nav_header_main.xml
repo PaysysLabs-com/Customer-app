@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:scrollbarSize="2dp"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarThumbVertical="@color/white"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/placeholder"
+            app:civ_border_width="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:civ_border_color="@android:color/white"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/tvDrawerUsername"
+            android:text="N/A"/>
+            <TextView
+                android:id="@+id/tvAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="N/A"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+
+             <androidx.appcompat.widget.AppCompatTextView
+                 android:id="@+id/drawer_tvHome"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:drawableLeft="@drawable/ic_home_white"
+                 android:text="@string/home"
+                 android:textStyle="bold"
+                 android:padding="20dp"
+                 android:onClick="drawerSectionItems"
+                 android:drawablePadding="10dp"
+                 android:gravity="center_vertical"
+                 android:textColor="@color/white"
+                 />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/drawer_Transfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_transfer"
+                android:text="@string/transfer"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:onClick="drawerSectionItems"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/drawer_tvQrPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_qr"
+                android:text="@string/qr_pay"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:onClick="drawerSectionItems"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/drawer_tvPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_payment"
+                android:text="@string/Payment"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:onClick="drawerSectionItems"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/drawer_tvOtherService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_others"
+                android:text="@string/other_services"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:onClick="drawerSectionItems"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/drawer_tvLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logouttext"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:onClick="drawerSectionItems"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

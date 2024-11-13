@@ -1,0 +1,24 @@
+
+Gsquid:S3398ö"(Move this method into "onClickListener".(ÇÕ≈‰8ûÉ≈“„-
+fsquid:HiddenFieldCheckç"<Rename "reamount" which hides the field declared at line 45.(É¡∆è8ûÉ≈“„-
+nsquid:S00117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê§”Ñ˛ˇˇˇˇ
+nsquid:S1450."WRemove the "callback" field and declare it as a local variable in the relevant methods.(ÂƒÜì
+Lsquid:S3398ä"(Move this method into "onClickListener".(˝‰‡∂˛ˇˇˇˇ8ãÛˆπ„-
+nsquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(¥Ÿ˘ú˛ˇˇˇˇ8§±°Ø„-
+9squid:S1659-""Declare "note" on a separate line.(ﬂ‘◊¬
+W"squid:SwitchLastCaseIsDefaultCheck}""Add a default case to this switch.(é∫÷ç8≠¢“„-
+\"squid:SwitchLastCaseIsDefaultChecko""Add a default case to this switch.(‰ˇúî˙ˇˇˇˇ8≠¢“„-
+isquid:S1301}"KReplace this "switch" statement by "if" statements to increase readability.(é∫÷ç8≠¢“„-
+ksquid:S00101z"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(û°¯8≠¢“„-
+^squid:HiddenFieldCheck7"<Rename "rootView" which hides the field declared at line 42.(„Äù§
+]"squid:SwitchLastCaseIsDefaultCheck∞""Add a default case to this switch.(Ü˘ ô¸ˇˇˇˇ8ûÉ≈“„-
+hsquid:S3973Ω"IUse indentation to denote the code conditionally executed by this "else".(‘ÕÅÿ8ûÉ≈“„-
+}squid:S1450/"aRemove the "titleFetchResponse" field and declare it as a local variable in the relevant methods.(Ì©±¡˚ˇˇˇˇ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(≠ù´å˚ˇˇˇˇ
+nsquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(¥Ÿ˘ú˛ˇˇˇˇ8ÚÎ„“„-
+~squid:UselessImportCheck"URemove this unused import 'com.example.mojaloop_app.Fragment.ConfirmDetailsFragment'.(ûß‡‡ˇˇˇˇˇ
+Rsquid:S1068/"6Remove this unused "titleFetchResponse" private field.(Ì©±¡˚ˇˇˇˇ
+j
+squid:S128∂"LEnd this switch case with an unconditional break, return or throw statement.(∫ œ∏8ûÉ≈“„-
+=squid:S1659-"&Declare "reamount" on a separate line.(ﬂ‘◊¬
+nsquid:S1301o"KReplace this "switch" statement by "if" statements to increase readability.(‰ˇúî˙ˇˇˇˇ8≠¢“„-

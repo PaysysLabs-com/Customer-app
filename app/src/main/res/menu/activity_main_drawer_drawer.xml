@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_myAccount"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_p2pTransfer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="P2P Transfer" />
+        <item
+            android:id="@+id/nav_PayeeManagement"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Payee Management" />
+        <item
+            android:id="@+id/nav_qrPayments"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="QR Payment" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+    </group>-->
+
+
+
+</menu>

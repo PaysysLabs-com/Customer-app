@@ -1,0 +1,168 @@
+
+Bsquid:S1659i"+Declare "et_NewAccount" on a separate line.(®òÒ«
+asquid:UnusedPrivateMethodä"/Remove this unused private "verifyCode" method.(®¿ãËûÿÿÿÿ8ô¶‘İì-
+V"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(äÿœ”úÿÿÿÿ
+±squid:S1845ç"ŒRename method "isValidateUserNameSuccess" to prevent any misunderstanding/clash with method "isValidateUsernameSuccess" defined on line 839.(«êÌôøÿÿÿÿ8¿æÇİì-
+V"squid:SwitchLastCaseIsDefaultCheckœ""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+lsquid:S00100±"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ‹£øşÿÿÿÿ
+Hsquid:S1068c",Remove this unused "lastname" private field.(Ãæ€ƒøÿÿÿÿ
+osquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(Èõ‘Úÿÿÿÿÿ8¿æÇİì-
+™squid:S1186é"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡İ
+gsquid:S2583§"CChange this condition so that it does not always evaluate to "true"(™Ì˜ıÿÿÿÿ8éí¤í-
+usquid:S1858—"Q"deviceLanguage" is already a string, there's no need to call "toString()" on it.(ø²ºüÿÿÿÿ8éí¤í-
+vsquid:S00116b"YRename this field "et_phoneNumber" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ï‚èûÿÿÿÿ
+esquid:S00101®"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡ø
+qsquid:S3776†"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ï’íò8ô¶‘İì-
+lsquid:S00100è"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘­†½ûÿÿÿÿ
+Gsquid:S3398’"(Move this method into "onClickListener".(ñ´ª8¿æÇİì-
+osquid:S00116†"VRename this field "liner_alias" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÎÛ™
+V"squid:SwitchLastCaseIsDefaultCheck–""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+nsquid:S1450X"WRemove the "rootView" field and declare it as a local variable in the relevant methods.(ÅáÊ
+Wsquid:S1172«"3Remove this unused method parameter "responseDesc".(¸˜´øÿÿÿÿ8ô¶‘İì-
+csquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(§¹Íñ
+Lsquid:S1068[".Remove this unused "rela_steps" private field.(Ú¯Ÿ8éí¤í-
+jsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(øÃìò8¿æÇİì-
+>squid:S1659Y"'Declare "stepCount" on a separate line.(ˆî×
+Lsquid:S1659m"0Declare "et_reEnterPassword" on a separate line.(¾ÆÜıÿÿÿÿ
+Bsquid:S1659c"&Declare "fullname" on a separate line.(Ãæ€ƒøÿÿÿÿ
+jsquid:S3776…"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(˜í×œ
+usquid:S00116i"]Rename this field "et_reAccountNumber" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®òÒ«
+nsquid:S00116†"URename this field "liner_next" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÎÛ™
+qsquid:S1450f"URemove the "et_dob" field and declare it as a local variable in the relevant methods.(ãæöİûÿÿÿÿ
+Gsquid:S1659i"0Declare "et_reAccountNumber" on a separate line.(®òÒ«
+Esquid:S3398Š"(Move this method into "onClickListener".(à–Ùüÿÿÿÿ
+@squid:S3398Ç"(Move this method into "onClickListener".(‹ğã£
+asquid:CommentedOutCodeLinej"<This block of commented-out lines of code should be removed.(¦ı‹
+
+Hsquid:S1068["*Remove this unused "header" private field.(Ú¯Ÿ8éí¤í-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÔ¥Äÿÿÿÿÿ
+wsquid:S00116…"YRename this field "sp_institution" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¬“¤ıÿÿÿÿ
+;squid:S1659["$Declare "header" on a separate line.(Ú¯Ÿ
+™squid:S1186ì"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œğ£Â
+Gsquid:S3398ù"(Move this method into "onClickListener".(Óƒ„8ô¶‘İì-
+psquid:S1450["YRemove the "rela_steps" field and declare it as a local variable in the relevant methods.(Ú¯Ÿ
+=squid:S1659c"!Declare "dob" on a separate line.(Ãæ€ƒøÿÿÿÿ
+Dsquid:S1659k"(Declare "NewAccount" on a separate line.(¨¡‘“ÿÿÿÿÿ
+ssquid:S00116m"VRename this field "et_Username" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÆÜıÿÿÿÿ
+psquid:S00116s"SRename this field "VerifyId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üóØ°üÿÿÿÿ
+hsquid:S1301è"KReplace this "switch" statement by "if" statements to increase readability.(†ùÊ™üÿÿÿÿ
+Bsquid:S1659c"&Declare "lastname" on a separate line.(Ãæ€ƒøÿÿÿÿ
+ssquid:S00116b"VRename this field "et_lastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ï‚èûÿÿÿÿ
+>squid:S1659v"'Declare "cancelbtn" on a separate line.(Ùş­¬
+?squid:S1659n"#Declare "alias" on a separate line.(¤Œ¥™ÿÿÿÿÿ
+Jsquid:S1659†"2Declare "liner_secretQuestion" on a separate line.(åÎÛ™
+Ksquid:S1659`"/Declare "validateUserToken" on a separate line.(œ®—øÿÿÿÿ
+„squid:S1450|"hRemove the "callbackRegistrationAlias" field and declare it as a local variable in the relevant methods.(ğÊøøÿÿÿÿ
+ysquid:S00116g"\Rename this field "Cb_trem_condition" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ…ª÷ùÿÿÿÿ
+dsquid:HiddenFieldCheck"<Rename "rootView" which hides the field declared at line 88.(à¸¬ûÿÿÿÿÿ
+gsquid:S2583¥"CChange this condition so that it does not always evaluate to "true"(ëû€”ùÿÿÿÿ8éí¤í-
+Q"squid:SwitchLastCaseIsDefaultCheck²""Add a default case to this switch.(ºÖ
+osquid:CommentedOutCodeLineØ"<This block of commented-out lines of code should be removed.(¶•ìœüÿÿÿÿ8¿æÇİì-
+ksquid:S00116p"NRename this field "OTP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éØÔøıÿÿÿÿ
+Esquid:S1659n")Declare "newpassword" on a separate line.(¤Œ¥™ÿÿÿÿÿ
+Lsquid:S3398Ç"(Move this method into "onClickListener".(Í‰­³ùÿÿÿÿ8¿æÇİì-
+bsquid:CommentedOutCodeLine’"<This block of commented-out lines of code should be removed.(çÊÖ}
+nsquid:S00116f"QRename this field "et_dob" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãæöİûÿÿÿÿ
+Esquid:S1659c")Declare "phoneNumber" on a separate line.(Ãæ€ƒøÿÿÿÿ
+osquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(ïœ£¿øÿÿÿÿ8¿æÇİì-
+Hsquid:S1659b",Declare "et_phoneNumber" on a separate line.(‹Ï‚èûÿÿÿÿ
+]"squid:SwitchLastCaseIsDefaultCheck£""Add a default case to this switch.(äÿœ”úÿÿÿÿ8Å²¤Şì-
+V"squid:SwitchLastCaseIsDefaultCheck™""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+zsquid:S00116m"]Rename this field "et_reEnterPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÆÜıÿÿÿÿ
+usquid:S1858Í"Q"deviceLanguage" is already a string, there's no need to call "toString()" on it.(ø²ºüÿÿÿÿ8éí¤í-
+qsquid:S00117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÈÙŸ8¿æÇİì-
+jsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ§›—
+Lsquid:S1659…"/Declare "sp_SecretQuestion" on a separate line.(Ù¬“¤ıÿÿÿÿ
+zsquid:S00116…"\Rename this field "sp_SecretQuestion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¬“¤ıÿÿÿÿ
+psquid:S00116b"SRename this field "et_email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ï‚èûÿÿÿÿ
+Csquid:S1659m"'Declare "et_Answer" on a separate line.(¾ÆÜıÿÿÿÿ
+qsquid:S00116x"YRename this field "teem_condation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¦à„
+lsquid:S00100î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ªìúÿÿÿÿ
+isquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(Ğ™Òg8¿æÇİì-
+csquid:CommentedOutCodeLineæ"<This block of commented-out lines of code should be removed.(¡‰‰ê
+jsquid:CommentedOutCodeLine¤"<This block of commented-out lines of code should be removed.(‡¾°Ç8ô¶‘İì-
+rsquid:S00116k"URename this field "NewAccount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¡‘“ÿÿÿÿÿ
+psquid:S00116m"SRename this field "et_Alias" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÆÜıÿÿÿÿ
+Gsquid:S3398Ó"(Move this method into "onClickListener".(áòò8¿æÇİì-
+hsquid:S1301œ"KReplace this "switch" statement by "if" statements to increase readability.(†ùÊ™üÿÿÿÿ
+@squid:S1659†"(Declare "liner_next" on a separate line.(åÎÛ™
+csquid:S1192Ş"FDefine a constant instead of duplicating this literal "Other" 3 times.(Ì…¤İúÿÿÿÿ
+{squid:S1450z"dRemove the "callbackCheckUsername" field and declare it as a local variable in the relevant methods.(áî°”
+squid:S2159§"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(™Ì˜ıÿÿÿÿ8éí¤í-
+™squid:S2159ğ"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(çâ“ğ8éí¤í-
+Hsquid:S1659m",Declare "et_NewPassword" on a separate line.(¾ÆÜıÿÿÿÿ
+squid:S2159¥"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ëû€”ùÿÿÿÿ8éí¤í-
+Csquid:S1659n"'Declare "aliasType" on a separate line.(¤Œ¥™ÿÿÿÿÿ
+jsquid:CommentedOutCodeLineÙ"<This block of commented-out lines of code should be removed.(”“ìˆ8ô¶‘İì-
+jsquid:CommentedOutCodeLineô"<This block of commented-out lines of code should be removed.(Ê÷°Ì8‡ÀÇİì-
+usquid:S00116u"]Rename this field "btn_trem_contition" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒä—œ
+]"squid:SwitchLastCaseIsDefaultCheckÓ""Add a default case to this switch.(†ùÊ™üÿÿÿÿ8ô¶‘İì-
+osquid:S1301£"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ8Å²¤Şì-
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(à€†›úÿÿÿÿ8¿æÇİì-
+Bsquid:S1659b"&Declare "et_email" on a separate line.(‹Ï‚èûÿÿÿÿ
+usquid:S1858Â"Q"deviceLanguage" is already a string, there's no need to call "toString()" on it.(ø²ºüÿÿÿÿ8éí¤í-
+csquid:CommentedOutCodeLine½"<This block of commented-out lines of code should be removed.(ı¡€€
+osquid:S00116‰"QRename this field "fsp_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÑÏÓşÿÿÿÿ
+hsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ
+V"squid:SwitchLastCaseIsDefaultCheckè""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+ksquid:UnusedPrivateMethod¶"9Remove this unused private "sendVerificationCode" method.(­Áòÿüÿÿÿÿ8ô¶‘İì-
+vsquid:S00116m"YRename this field "et_NewPassword" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÆÜıÿÿÿÿ
+Lsquid:S3398ç"(Move this method into "onClickListener".(«êÌôøÿÿÿÿ8¿æÇİì-
+osquid:S1301Ó"KReplace this "switch" statement by "if" statements to increase readability.(†ùÊ™üÿÿÿÿ8ô¶‘İì-
+Esquid:S1659b")Declare "et_lastName" on a separate line.(‹Ï‚èûÿÿÿÿ
+@squid:S1659n"$Declare "answer" on a separate line.(¤Œ¥™ÿÿÿÿÿ
+tsquid:S00116b"WRename this field "et_firstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ï‚èûÿÿÿÿ
+psquid:S00116i"XRename this field "et_NewAccount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®òÒ«
+qsquid:S00116m"TRename this field "et_Answer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÆÜıÿÿÿÿ
+?squid:S1659r"(Declare "btn_submit" on a separate line.(á‘¶¾
+~squid:S1450}"bRemove the "callbackvalidateOTP" field and declare it as a local variable in the relevant methods.(ñ¥©¹úÿÿÿÿ
+hsquid:S1301–"KReplace this "switch" statement by "if" statements to increase readability.(†ùÊ™üÿÿÿÿ
+}squid:S1845‹"^Rename field "otp" to prevent any misunderstanding/clash with field "OTP" defined on line 112.(Ú­òµ8ô¶‘İì-
+squid:S00116€"ZRename this field "step3_btnResend" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûıˆ¤üÿÿÿÿ8ô¶‘İì-
+osquid:CommentedOutCodeLineá"<This block of commented-out lines of code should be removed.(–²¬ªúÿÿÿÿ8ô¶‘İì-
+Csquid:S1659c"'Declare "firstname" on a separate line.(Ãæ€ƒøÿÿÿÿ
+jsquid:CommentedOutCodeLineù"<This block of commented-out lines of code should be removed.(É³‹8¿æÇİì-
+qsquid:S00116…"SRename this field "sp_Alias" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¬“¤ıÿÿÿÿ
+gsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÑœÈ
+fsquid:S00100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ¢ğ;
+usquid:S1858¼"Q"deviceLanguage" is already a string, there's no need to call "toString()" on it.(ø²ºüÿÿÿÿ8éí¤í-
+Lsquid:S3398™"(Move this method into "onClickListener".(øŠÁôûÿÿÿÿ8¿æÇİì-
+hsquid:CommentedOutCodeLineÊ"<This block of commented-out lines of code should be removed.(ğÇÿÿÿÿÿÿ
+Esquid:S3398Ô"(Move this method into "onClickListener".(¨””Ïùÿÿÿÿ
+msquid:S00116["URename this field "rela_steps" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¯Ÿ
+Lsquid:S3398ª"(Move this method into "onClickListener".(øéãšşÿÿÿÿ8¿æÇİì-
+qsquid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óƒ„8ô¶‘İì-
+bsquid:S2583ğ"CChange this condition so that it does not always evaluate to "true"(çâ“ğ8éí¤í-
+€squid:S1450~"bRemove the "callbackgenerateOTP" field and declare it as a local variable in the relevant methods.(Âìğ”8ô¶‘İì-
+jsquid:S3776Â"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(”È×
+psquid:S00116i"XRename this field "et_Intitution" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®òÒ«
+Isquid:S1659k"-Declare "reAccountNumber" on a separate line.(¨¡‘“ÿÿÿÿÿ
+squid:S1186ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¢®Êøÿÿÿÿ
+xsquid:S00116†"_Rename this field "liner_secretQuestion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÎÛ™
+Csquid:S1068X",Remove this unused "rootView" private field.(ÅáÊ
+msquid:S00116r"URename this field "btn_submit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á‘¶¾
+Asquid:S1659†")Declare "liner_alias" on a separate line.(åÎÛ™
+psquid:S00116†"WRename this field "liner_submit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÎÛ™
+jsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(½ƒßÌ8ô¶‘İì-
+Hsquid:S1659n",Declare "secretQuestion" on a separate line.(¤Œ¥™ÿÿÿÿÿ
+Csquid:S1659…"&Declare "sp_Alias" on a separate line.(Ù¬“¤ıÿÿÿÿ
+lsquid:S00100ı"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïï€­ûÿÿÿÿ
+lsquid:S1450["URemove the "header" field and declare it as a local variable in the relevant methods.(Ú¯Ÿ
+™squid:S2159Û"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(ÑàŒä8éí¤í-
+jsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢óÒÑ
+Ksquid:S1068b"/Remove this unused "et_lastName" private field.(‹Ï‚èûÿÿÿÿ
+osquid:CommentedOutCodeLine«"<This block of commented-out lines of code should be removed.(Şğÿ„ùÿÿÿÿ8¿æÇİì-
+bsquid:S2583Û"CChange this condition so that it does not always evaluate to "true"(ÑàŒä8éí¤í-
+c
+squid:S128›"LEnd this switch case with an unconditional break, return or throw statement.(ºÊÏ¸
+@squid:S3398…"(Move this method into "onClickListener".(˜í×œ
+zsquid:S1450{"cRemove the "callbackValidateUser" field and declare it as a local variable in the relevant methods.(…åÀã
+Hsquid:S1068i"1Remove this unused "et_Intitution" private field.(®òÒ«
+osquid:S00117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ñˆßıÿÿÿÿ
+Isquid:S1659n"-Declare "reEnterpassword" on a separate line.(¤Œ¥™ÿÿÿÿÿ
+Gsquid:S3398"(Move this method into "onClickListener".(Âúÿó8¿æÇİì-
+osquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(ß›Ò¼üÿÿÿÿ8¿æÇİì-
+Bsquid:S1659m"&Declare "et_Alias" on a separate line.(¾ÆÜıÿÿÿÿ
+vsquid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÇø³ÿÿÿÿÿ8¿æÇİì-
+Gsquid:S3398‹"(Move this method into "onClickListener".(œš£ˆ8¿æÇİì-
+Isquid:S1068n"-Remove this unused "aliasType" private field.(¤Œ¥™ÿÿÿÿÿ

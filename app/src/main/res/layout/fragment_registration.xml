@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/btncolor">
+
+        <ImageView
+            android:id="@+id/iv_backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="20dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:id="@+id/registrationHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_toRightOf="@id/iv_backbtn"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:text="@string/create_account"/>
+
+        <ImageView
+            android:id="@+id/iv_cancelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="20dp"
+            android:src="@drawable/ic_cancle"/>
+
+    </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/rela_steps"
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:background="@color/graycolor"
+      android:orientation="horizontal">
+
+      <LinearLayout
+          android:id="@+id/liner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:orientation="horizontal"
+          android:layout_marginTop="10dp"
+          android:paddingRight="20dp"
+          android:paddingLeft="20dp">
+
+      <TextView
+          android:id="@+id/steptext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20dp"
+          android:textAlignment="center"
+          android:layout_marginTop="5dp"
+          android:text="@string/step"/>
+
+      <TextView
+          android:id="@+id/stepCount"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="22dp"
+          android:layout_toRightOf="@id/steptext"
+          android:textAlignment="center"
+          android:layout_marginTop="5dp"
+          android:textColor="@color/black"
+          android:text=" 1"/>
+
+      <TextView
+          android:id="@+id/stepTotal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="22dp"
+          android:text="/4"
+          android:layout_marginTop="5dp" />
+
+</LinearLayout>
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/stepName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_below="@id/liner"
+          android:textSize="20dp"
+          android:text="@string/personal_Details"/>
+
+  </RelativeLayout>
+
+        <ViewFlipper
+                    android:id="@+id/viewFlipper_registerationSteps"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal">
+
+            <include layout="@layout/fragment_registration_step1_tnc2"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_gravity="center_horizontal"/>
+
+            <include layout="@layout/fragment_registration_step2_kyc3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:visibility="gone"/>
+
+            <include layout="@layout/fragment_registration_step3_tnc4_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone"/>
+
+            <include layout="@layout/fragment_registration_step4_otp5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone"/>
+
+        </ViewFlipper>
+</LinearLayout>
+

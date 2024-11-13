@@ -1,0 +1,10 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­«Œûÿÿÿÿ
+Zsquid:HiddenFieldChecko":Rename "amount" which hides the field declared at line 40.(ª’=
+}squid:S1450%"aRemove the "flashlightCheckBox" field and declare it as a local variable in the relevant methods.(…àûÒÿÿÿÿÿ
+Bsquid:S1068*"+Remove this unused "tokenID" private field.(ŞÈşï
+squid:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íá–Ûşÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck("RMake amount a static final constant or non-public and provide accessors if needed.(±±õÏ
+3squid:S3626±"Remove this redundant jump.(ûÁİ…
+|squid:S1450&"eRemove the "enableDecodingCheckBox" field and declare it as a local variable in the relevant methods.(ç¦“”
+hsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(µêùÿÿÿÿ

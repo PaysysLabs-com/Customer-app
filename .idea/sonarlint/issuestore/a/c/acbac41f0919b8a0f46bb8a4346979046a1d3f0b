@@ -1,0 +1,11 @@
+
+wsquid:S3923$"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ïªìŠúÿÿÿÿ
+Rsquid:S1481)"6Remove this unused "certificatePinner" local variable.(á­Ã¤ÿÿÿÿÿ
+Psquid:S1118":Add a private constructor to hide the implicit public one.(»åãF
+Rsquid:S1481Y"6Remove this unused "certificatePinner" local variable.(á­Ã¤ÿÿÿÿÿ
+wsquid:S3923T"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ïªìŠúÿÿÿÿ
+gsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(ôœ¹´úÿÿÿÿ
+gsquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(©ãºßýÿÿÿÿ
+gsquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(ŠÃ±Áøÿÿÿÿ
+gsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(ŠÃ±Áøÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÖŸÿÝúÿÿÿÿ

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/btncolor">
+
+        <TextView
+            android:id="@+id/registrationHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:text="@string/terms_and_Conditions"/>
+
+        <ImageView
+            android:id="@+id/iv_tncCancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="20dp"
+            android:src="@drawable/ic_cancle"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linearSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_below="@+id/header"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvEnglishtab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENGLISH"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <View
+                android:id="@+id/viewEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/blue"></View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvFilipinotab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FILIPINO"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <View
+                android:id="@+id/viewFilipion"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:visibility="gone"
+                android:background="@color/blue"></View>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@+id/linearSelect"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@android:color/black"></View>
+
+    <ScrollView
+        android:id="@+id/sv_1"
+        android:layout_below="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/header_terms_conditions"/>
+
+        <com.github.florent37.expansionpanel.viewgroup.ExpansionsViewGroupLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expansion_openOnlyOne="true"
+            android:orientation="vertical">
+
+            <!-- Expansions Header & Layouts -->
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                    <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/definition_headerIndicator"
+                    app:expansion_layout="@id/definition_headerLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/definition_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:text="@string/definition_header"
+                         />
+                    ...
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/definition_headerIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/definition_headerLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/definition_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/definition_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp"
+                        />
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></View>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+
+                <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/applicabilityIndicator"
+                    app:expansion_layout="@id/applicabilityLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/applicability_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/applicability_header"
+
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                    ...
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/applicabilityIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+
+
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/applicabilityLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/applicability_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/applicability_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></View>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+
+                <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/digital_SerciceIndicator"
+                    app:expansion_layout="@id/digital_SerciceLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/digital_Sercice_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/digital_Sercice_header"
+
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                    ...
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/digital_SerciceIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+
+
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/digital_SerciceLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/digital_Sercice_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/digital_Sercice_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp"
+                        />
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></View>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+
+                <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/digital_AccessibilityIndicator"
+                    app:expansion_layout="@id/digital_AccessibilityLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/digital_Accessibility_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/digital_Accessibility_header"
+
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                    ...
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/digital_AccessibilityIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+
+
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/digital_AccessibilityLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/digital_Accessibility_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/digital_Accessibility_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp"
+                        />
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></View>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+
+                <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/unauthorizedIndicator"
+                    app:expansion_layout="@id/unauthorizedLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/unauthorized_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:text="@string/unauthorized_header"
+                         />
+                    ...
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/unauthorizedIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+
+
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/unauthorizedLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/unauthorized_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unauthorized_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp" />
+
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></View>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/maintenanceIndicator"
+                    app:expansion_layout="@id/maintenanceLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/maintenance_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/maintenance_header"
+
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/maintenanceIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/maintenanceLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/maintenance_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/maintenance_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp"
+                        />
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></View>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/fund_TransferIndicator"
+                    app:expansion_layout="@id/fund_TransferLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/fund_Transfer_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fund_Transfer_header"
+
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                    ...
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/fund_TransferIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/fund_TransferLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/fund_Transfer_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fund_Transfer_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp"
+                        />
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></View>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/risk_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Risk"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/risk_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fund_Transfer_description"
+                android:textColor="@android:color/black"
+
+                android:padding="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/acknowledgesIndicator"
+                    app:expansion_layout="@id/acknowledgesLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/acknowledges_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acknowledges_header"
+
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"/>
+                    ...
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/acknowledgesIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/acknowledgesLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/acknowledges_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/acknowledges_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp" />
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"></View>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+                <com.github.florent37.expansionpanel.ExpansionHeader
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:expansion_headerIndicator="@id/authorityIndicator"
+                    app:expansion_layout="@id/authorityLayout"
+                    app:expansion_toggleOnClick="true">
+
+                    <!-- HEADER -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/authority_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/authority_header"
+
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp" />
+                    ...
+                    <!-- HEADER INDICATOR -->
+                    <ImageView
+                        android:adjustViewBounds="true"
+                        android:id="@+id/authorityIndicator"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+                </com.github.florent37.expansionpanel.ExpansionHeader>
+
+                <com.github.florent37.expansionpanel.ExpansionLayout
+                    android:id="@+id/authorityLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <!-- CONTENT -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/authority_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/authority_description"
+
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="10dp" />
+                </com.github.florent37.expansionpanel.ExpansionLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/graycolor"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"></View>
+
+            </com.github.florent37.expansionpanel.viewgroup.ExpansionsViewGroupLinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_deny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:visibility="gone"
+            android:text="Deny"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="Accept"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
+

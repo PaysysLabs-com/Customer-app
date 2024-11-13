@@ -1,0 +1,22 @@
+
+dsquid:S00101t"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡ø
+bsquid:S1301w"KReplace this "switch" statement by "if" statements to increase readability.(ºÖ
+Lsquid:S3398„"(Move this method into "onClickListener".(»œöûşÿÿÿÿ8½êç‚ä-
+U"squid:SwitchLastCaseIsDefaultCheckT""Add a default case to this switch.(äÿœ”úÿÿÿÿ
+V"squid:SwitchLastCaseIsDefaultCheck–""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+gsquid:S1301i"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ
+_squid:S3973¢"GUse indentation to denote the code conditionally executed by this "if".(ÔÍØ
+9squid:S1659&""Declare "note" on a separate line.(Êÿƒ
+isquid:S001177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³²ºç
+gsquid:S1301T"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ
+gsquid:S1192´"IDefine a constant instead of duplicating this literal "OkDialog" 3 times.(±êñ;8‹ò²æ-
+Bsquid:S1659&"+Declare "receiverAlias" on a separate line.(Êÿƒ
+^squid:HiddenFieldCheck/"<Rename "rootView" which hides the field declared at line 35.(Ñ¯õ‘
+asquid:HiddenFieldCheck@":Rename "amount" which hides the field declared at line 38.(ÿ—ÙĞıÿÿÿÿ
+nsquid:S001178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅË¢üÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è™Œ²üÿÿÿÿ
+Wsquid:S2589É"8Remove this expression which always evaluates to "false"(á×Ò8”ı„ƒä-
+msquid:S1450'"WRemove the "callback" field and declare it as a local variable in the relevant methods.(¨®„'
+_squid:HiddenFieldCheckI"8Rename "note" which hides the field declared at line 38.(†Ëãšÿÿÿÿÿ
+U"squid:SwitchLastCaseIsDefaultChecki""Add a default case to this switch.(äÿœ”úÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheckw""Add a default case to this switch.(ºÖ

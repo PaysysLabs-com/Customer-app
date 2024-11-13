@@ -1,0 +1,18 @@
+
+P"squid:SwitchLastCaseIsDefaultCheckb""Add a default case to this switch.(óíŒË
+fsquid:S00100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýú¨¬
+squid:S3008è"[Rename this field "VALID_CHARACTERS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ”þºüÿÿÿÿ8¥‰¾Þì-
+Bsquid:S2119ì"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8¥‰¾Þì-
+csquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(ò´ÿ¬
+jsquid:CommentedOutCodeLine¤"<This block of commented-out lines of code should be removed.(ªÀœ“8â“ ¯ã-
+Asquid:S2386è"Make this member "protected".(õ”þºüÿÿÿÿ8¥‰¾Þì-
+—"squid:ClassVariableVisibilityCheckè"\Make VALID_CHARACTERS a static final constant or non-public and provide accessors if needed.(õ”þºüÿÿÿÿ8¥‰¾Þì-
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(ÄßŸ
+ksquid:S00100a"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ£®¤ýÿÿÿÿ
+fsquid:S1192P"ODefine a constant instead of duplicating this literal "Create Account" 4 times.(×ªÉØ
+jsquid:CommentedOutCodeLineÁ"<This block of commented-out lines of code should be removed.(ªÀœ“8©Åƒ¹ã-
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š“”Ñøÿÿÿÿ8×˜¦äì-
+fsquid:S1192d"JDefine a constant instead of duplicating this literal "Buat Akun" 4 times.(Å¶üÿÿÿÿ
+Zsquid:S1444è"6Make this "public static VALID_CHARACTERS" field final(õ”þºüÿÿÿÿ8¥‰¾Þì-
+~squid:S1488Ð"_Immediately return this expression instead of assigning it to the temporary variable "amount1".(±ËÒ›8¥‰¾Þì-
+P"squid:SwitchLastCaseIsDefaultCheckN""Add a default case to this switch.(óíŒË

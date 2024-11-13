@@ -1,0 +1,38 @@
+
+Gsquid:S1068,"+Remove this unused "etInput" private field.(£Ýéšùÿÿÿÿ
+osquid:UselessImportCheck"KRemove this unused import 'com.example.mojaloop_app.utils.CurrencySymbols'.(Ò­š–
+Rsquid:S1068+"6Remove this unused "titleFetchResponse" private field.(í©±Áûÿÿÿÿ
+Bsquid:S1659)"+Declare "receiverAlias" on a separate line.(ˆˆ–ß
+bsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(˜Çÿù
+W"squid:SwitchLastCaseIsDefaultChecko""Add a default case to this switch.(ŽºÖ8†¨¢Òã-
+=squid:S1659)"&Declare "reamount" on a separate line.(ˆˆ–ß
+\"squid:SwitchLastCaseIsDefaultChecka""Add a default case to this switch.(äÿœ”úÿÿÿÿ8†¨¢Òã-
+gsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(£ÅÉòûÿÿÿÿ
+nsquid:S00117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¤Ó„þÿÿÿÿ
+Bsquid:S1068-"+Remove this unused "current" private field.(‡Ž—Í
+Ksquid:S3398}"(Move this method into "onClickListener".(ýäà¶þÿÿÿÿ8‡¨¢Òã-
+nsquid:S1450*"WRemove the "callback" field and declare it as a local variable in the relevant methods.(åÄ†“
+Csquid:S1068)",Remove this unused "reamount" private field.(ˆˆ–ß
+isquid:S1301o"KReplace this "switch" statement by "if" statements to increase readability.(ŽºÖ8†¨¢Òã-
+Wsquid:UselessImportCheck"3Remove this unused import 'java.text.NumberFormat'.(¿¸ž»
+o
+squid:S128¬"LEnd this switch case with an unconditional break, return or throw statement.(„È“€ùÿÿÿÿ8±²àã-
+Ysquid:UselessImportCheck"5Remove this unused import 'android.text.TextWatcher'.( š«
+9squid:S1659)""Declare "note" on a separate line.(ˆˆ–ß
+bsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(®€’€
+ksquid:S00101l"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ž¡ø8†¨¢Òã-
+[squid:UselessImportCheck"2Remove this unused import 'android.text.Editable'.(À”áÈþÿÿÿÿ
+jsquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(–äðË8‡¨¢Òã-
+o
+squid:S128ª"LEnd this switch case with an unconditional break, return or throw statement.(°ÐþÔüÿÿÿÿ8±²àã-
+]"squid:SwitchLastCaseIsDefaultCheck©""Add a default case to this switch.(†ùÊ™üÿÿÿÿ8†¨¢Òã-
+j
+squid:S128±"LEnd this switch case with an unconditional break, return or throw statement.(ºÊÏ¸8†¨¢Òã-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è™Œ²üÿÿÿÿ
+}squid:S1450+"aRemove the "titleFetchResponse" field and declare it as a local variable in the relevant methods.(í©±Áûÿÿÿÿ
+Gsquid:S3398“"(Move this method into "onClickListener".(‚ÍÅä8‡¨¢Òã-
+nsquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(´Ùùœþÿÿÿÿ8ÜÙŒ¯ã-
+hsquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(ë•ó8‡¨¢Òã-
+csquid:HiddenFieldCheck7"<Rename "rootView" which hides the field declared at line 40.(´àÓáþÿÿÿÿ
+nsquid:S1301a"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ8†¨¢Òã-
+Fsquid:S1148L"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8º¤Óßã-

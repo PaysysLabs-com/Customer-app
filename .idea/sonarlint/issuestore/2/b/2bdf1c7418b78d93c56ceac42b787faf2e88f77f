@@ -1,0 +1,13 @@
+
+Bsquid:S1659#"&Declare "btnTopUp" on a separate line.(„Ó…¾üÿÿÿÿ
+squid:S1450&"eRemove the "callbackBalanceInquiry" field and declare it as a local variable in the relevant methods.(‘ĞÇşÿÿÿÿ
+ssquid:S00100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïï€­ûÿÿÿÿ8¸×Ìˆã-
+Bsquid:S1659#"&Declare "btnQrPay" on a separate line.(„Ó…¾üÿÿÿÿ
+Dsquid:S1659#"(Declare "btnPayment" on a separate line.(„Ó…¾üÿÿÿÿ
+Jsquid:S1659#".Declare "btnOtherServices" on a separate line.(„Ó…¾üÿÿÿÿ
+dsquid:S00101K"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡ø
+lsquid:S00116""TRename this field "tv_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„®ıå
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è™Œ²üÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheckN""Add a default case to this switch.(ºÖ
+squid:S00116$"[Rename this field "tv_actualBalance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨½ö‘ùÿÿÿÿ8ÎÖÊˆã-
+\"squid:SwitchLastCaseIsDefaultChecky""Add a default case to this switch.(†ùÊ™üÿÿÿÿ8¸×Ìˆã-

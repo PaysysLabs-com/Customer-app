@@ -1,0 +1,12 @@
+
+psquid:S1450"YRemove the "btnYesText" field and declare it as a local variable in the relevant methods.(¸±¯
+Esquid:S1068".Remove this unused "btnYesText" private field.(¸±¯
+osquid:S1450"XRemove the "btnNoText" field and declare it as a local variable in the relevant methods.(Òìœ‹
+dsquid:S00101S"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡ø
+P"squid:SwitchLastCaseIsDefaultCheckV""Add a default case to this switch.(ºÖ
+Asquid:S1068"+Remove this unused "context" private field.(êİç
+bsquid:S1301V"KReplace this "switch" statement by "if" statements to increase readability.(ºÖ
+Dsquid:S1068"-Remove this unused "btnNoText" private field.(Òìœ‹
+nsquid:S00114l"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸Ûëùûÿÿÿÿ
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡í´¬8é¸—äì-
+˜squid:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(àÉêÖ

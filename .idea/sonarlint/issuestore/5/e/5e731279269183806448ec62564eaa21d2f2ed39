@@ -1,0 +1,26 @@
+
+Lsquid:S1444"5Make this "public static CONNECT_TIMEOUT" field final(üêà
+Osquid:S1444"3Make this "public static deviceDetails" field final(ãşÛüÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck"YMake deviceDetails a static final constant or non-public and provide accessors if needed.(ãşÛüÿÿÿÿ
+Ksquid:S1444"/Make this "public static benefName" field final(Œôÿıÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(“³±ûÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake deviceToken a static final constant or non-public and provide accessors if needed.(’Œ·¹úÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck"[Make deviceOSVersion a static final constant or non-public and provide accessors if needed.(µ¤İº
+‰"squid:ClassVariableVisibilityCheck"[Make CONNECT_TIMEOUT a static final constant or non-public and provide accessors if needed.(üêà
+Esquid:S1444".Make this "public static str_IMEI" field final(Í¿¿
+‹"squid:ClassVariableVisibilityCheck"XMake READ_TIMEOUT a static final constant or non-public and provide accessors if needed.(éûœÄşÿÿÿÿ
+Msquid:S1444"1Make this "public static deviceToken" field final(’Œ·¹úÿÿÿÿ
+jsquid:S3008"SRename this field "str_IMEI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¿¿
+ˆ"squid:ClassVariableVisibilityCheck"UMake benefName a static final constant or non-public and provide accessors if needed.(Œôÿıÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"ZMake deviceLanguage a static final constant or non-public and provide accessors if needed.(ùšï·
+Nsquid:S1444"2Make this "public static READ_TIMEOUT" field final(éûœÄşÿÿÿÿ
+Lsquid:S1444"5Make this "public static deviceOSVersion" field final(µ¤İº
+qsquid:S3008"ZRename this field "CONNECT_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üêà
+Ksquid:S1444"4Make this "public static deviceLanguage" field final(ùšï·
+‚"squid:ClassVariableVisibilityCheck"TMake str_IMEI a static final constant or non-public and provide accessors if needed.(Í¿¿
+ssquid:S3008"WRename this field "READ_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éûœÄşÿÿÿÿ
+Qsquid:S1444".Make this "public static BASE_URL" field final(æÅÄ¡úÿÿÿÿ8¶£ÚÍä-
+"squid:ClassVariableVisibilityCheck"TMake BASE_URL a static final constant or non-public and provide accessors if needed.(æÅÄ¡úÿÿÿÿ8¶£ÚÍä-
+vsquid:S3008"SRename this field "BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÅÄ¡úÿÿÿÿ8¶£ÚÍä-
+isquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(¡ïçò8¶£ÚÍä-

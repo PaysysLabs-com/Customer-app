@@ -1,0 +1,11 @@
+
+Ksquid:S2209="5Change this instance-reference to a static reference.(Òó²S
+nsquid:S001176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŒ‘Ëúÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×‹¦ÿýÿÿÿÿ
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(©Êºªûÿÿÿÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ˆßëµ
+asquid:HiddenFieldCheckT":Rename "bitmap" which hides the field declared at line 28.(¿µ£ûÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆßëµ
+nsquid:S00117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Þ‘øÿÿÿÿ
+usquid:S00116"XRename this field "EditTextValue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä©ìóùÿÿÿÿ
+?squid:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

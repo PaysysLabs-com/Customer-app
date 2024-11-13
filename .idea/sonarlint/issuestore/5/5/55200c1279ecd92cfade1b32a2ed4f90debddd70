@@ -1,0 +1,26 @@
+
+?squid:S3398o"(Move this method into "onClickListener".(‰‡çÃ
+?squid:S3398t"(Move this method into "onClickListener".(ÓœÔô
+^squid:UselessImportCheck":Remove this unused import 'android.widget.CompoundButton'.(®½¤Ş
+@squid:S1148ƒ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+~squid:UselessImportCheck-"NRemove this unused import 'com.example.mojaloop_app.utils.Constants.str_IMEI'.(ğ”şùÿÿÿÿ8˜ëÓ®ã-
+tsquid:UselessImportCheck"PRemove this unused import 'android.text.method.HideReturnsTransformationMethod'.(Ñƒƒ›
+V"squid:SwitchLastCaseIsDefaultCheckå""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+qsquid:UselessImportCheck"MRemove this unused import 'android.text.method.PasswordTransformationMethod'.(§ßÆ·
+]squid:S3973g"GUse indentation to denote the code conditionally executed by this "if".(¶¹±O
+P"squid:SwitchLastCaseIsDefaultCheckZ""Add a default case to this switch.(ºÖ
+psquid:S001169"XRename this field "LangUnderLine" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÍ€Ğ
+csquid:CommentedOutCodeLine²"<This block of commented-out lines of code should be removed.(Ûâ·­
+isquid:S00117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“–ªù
+Bsquid:S16596"&Declare "username" on a separate line.(åÈš…şÿÿÿÿ
+dsquid:S00101W"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡ø
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘•£ıÿÿÿÿ
+V"squid:SwitchLastCaseIsDefaultCheck”""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+Esquid:S3398À"(Move this method into "onClickListener".(ıäà¶şÿÿÿÿ
+^squid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
+@squid:S3398Ó"(Move this method into "onClickListener".(®”€©
+_squid:UselessImportCheck"4Remove this unused import 'android.widget.EditText'.(†Å›Ú8àÿ©¨ã-
+squid:UselessImportCheck"QRemove this unused import 'com.example.mojaloop_app.Activity.MainDrawerActivity'.(Ì¨ú‰üÿÿÿÿ8¹”Ùáã-
+Vsquid:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ò¡ó‘øÿÿÿÿ
+}squid:S14504"fRemove the "callbackCreditUnionList" field and declare it as a local variable in the relevant methods.(ë†»Ç
+ssquid:S14503"WRemove the "callback" field and declare it as a local variable in the relevant methods.(–Âïöûÿÿÿÿ

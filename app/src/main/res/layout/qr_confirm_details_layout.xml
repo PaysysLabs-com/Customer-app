@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/layoutColor"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/ll_step"
+            android:visibility="gone"
+            >
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Step 2/2"
+                android:textSize="18dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please review the data below"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                android:textSize="18dp"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_below="@+id/ll_step"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/account_number"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text=""/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/merchant_Name"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvMerchantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text=""/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:text="@string/amount"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text=""/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:text="@string/senderFee"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_senderFee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text=""/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:text="@string/reciverFee"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_receiverFee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text=""/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/notes"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text=""/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit payment"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/cardview"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg" />
+
+    </RelativeLayout>
+
+</ScrollView>

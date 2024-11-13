@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btncolor">
+
+    <ImageView
+        android:id="@+id/iv_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"
+        android:layout_above="@+id/tv_dlgHeader"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_dialog_header_ic"/>
+
+    <TextView
+        android:id="@+id/tv_dlgHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/tv_dlgMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_margin="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/tv_dlgHeader"
+        android:textAlignment="center"
+        android:text="You have successfully registered for Mobile Banking"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_dlg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/logintext"
+            android:textSize="17dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/btncolor"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/button_bg_white" />
+    <!--<androidx.appcompat.widget.AppCompatButton-->
+        <!--android:id="@+id/btn_dlg"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="60dp"-->
+        <!--android:text="Login"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_marginRight="60dp"-->
+        <!--android:layout_marginBottom="40dp"-->
+        <!--android:textColor="@color/btncolor"-->
+        <!--android:layout_below="@+id/tv_dlgMsg"-->
+        <!--android:background="@drawable/button_bg_white" />-->
+
+
+</RelativeLayout>

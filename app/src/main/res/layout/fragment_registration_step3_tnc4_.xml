@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:met_singleLineEllipsis="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/create_username"
+                app:met_floatingLabel="highlight" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/et_newPasswordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@id/et_userName"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_newPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_userName"
+                    android:inputType="textPassword"
+                    android:hint="@string/create_password"
+                    app:met_floatingLabel="highlight"
+                    app:met_singleLineEllipsis="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/et_reEnterPasswordLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@id/et_newPasswordLayout"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_reEnterPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:met_singleLineEllipsis="true"
+                    android:inputType="textPassword"
+                    android:layout_below="@id/et_newPasswordLayout"
+                    android:hint="@string/reenter_password"
+                    app:met_floatingLabel="highlight" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/liner_secretQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/et_reEnterPasswordLayout"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                android:background="@drawable/spinner_transparnt_bg"
+                android:layout_marginRight="10dp">
+
+                <Spinner
+                    android:id="@+id/sp_secretQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="bottom"
+                    android:layout_below="@id/et_reEnterPassword"
+                    android:hint="@string/secret_question"
+                    app:met_floatingLabel="highlight"
+                    app:met_singleLineEllipsis="true" />
+
+            </LinearLayout>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/liner_secretQuestion"
+                android:hint="@string/answer"
+                android:visibility="gone"
+                app:met_floatingLabel="highlight"
+                app:met_singleLineEllipsis="true" />
+
+            <LinearLayout
+                android:id="@+id/liner_alias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/et_answer"
+                android:visibility="gone"
+                android:background="@drawable/spinner_transparnt_bg"
+                android:layout_marginRight="10dp">
+
+                <Spinner
+                    android:id="@+id/sp_alias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:met_singleLineEllipsis="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_below="@+id/et_answer"
+                    android:layout_marginRight="20dp"
+                    app:met_floatingLabel="highlight" />
+
+            </LinearLayout>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_alias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:met_singleLineEllipsis="true"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/liner_alias"
+                android:layout_marginRight="20dp"
+                android:hint="Alias"
+                android:visibility="gone"
+                app:met_floatingLabel="highlight" />
+
+            <LinearLayout
+                android:id="@+id/linerbtn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/graycolor"
+                android:layout_below="@id/et_alias"
+                android:visibility="visible"
+                android:layout_alignParentBottom="true">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/step3_btnsubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/submit"
+                    android:textSize="17dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_bg" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linerbtn_next"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/graycolor"
+                android:layout_below="@id/et_alias"
+                android:visibility="gone"
+                android:layout_alignParentBottom="true">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/step3_btnContinue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/next"
+                    android:visibility="visible"
+                    android:textSize="17dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_bg" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

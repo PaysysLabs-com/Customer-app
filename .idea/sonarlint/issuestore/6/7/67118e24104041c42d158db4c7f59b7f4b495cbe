@@ -1,0 +1,46 @@
+
+gsquid:S1301z"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ
+Q"squid:SwitchLastCaseIsDefaultCheck‰""Add a default case to this switch.(ºÖ
+Jsquid:S1172È"+Remove this unused method parameter "data".(‚œàÕ8ªµÈ…í-
+jsquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(÷ óâ8ªµÈ…í-
+lsquid:S1871"IThis case's code block is the same as the block for the case on line 123.(ªëÅŞúÿÿÿÿ8‘³…†í-
+nsquid:S00100È"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚œàÕ8ªµÈ…í-
+U"squid:SwitchLastCaseIsDefaultCheckz""Add a default case to this switch.(äÿœ”úÿÿÿÿ
+csquid:S1301‰"KReplace this "switch" statement by "if" statements to increase readability.(ºÖ
+usquid:S00117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ê¶ïüÿÿÿÿ8•‹ª…í-
+Lsquid:S3398×"(Move this method into "onClickListener".(»œöûşÿÿÿÿ8ªµÈ…í-
+9squid:S1659,""Declare "note" on a separate line.(Êÿƒ
+Bsquid:S1659,"+Declare "receiverAlias" on a separate line.(Êÿƒ
+msquid:S1450."WRemove the "callback" field and declare it as a local variable in the relevant methods.(¨®„'
+esquid:S00101†"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡ø
+qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆ’—B
+U"squid:SwitchLastCaseIsDefaultCheckd""Add a default case to this switch.(äÿœ”úÿÿÿÿ
+rsquid:S001161"SRename this field "iv_check" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¿–ğ8äõØÜì-
+Gsquid:S3398–"(Move this method into "onClickListener".(™Ü©Â8ëÔñ…í-
+Hsquid:S5411Y"*Use the primitive boolean expression here.(ì”º8Æœ»†í-
+fsquid:S3973õ"GUse indentation to denote the code conditionally executed by this "if".(ÔÍØ8ªµÈ…í-
+gsquid:S1301d"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ
+€squid:S00116*"aRename this field "AddBanificiaryCallBack" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾µ²«8«ò×Üì-
+isquid:CommentedOutCodeLine\"<This block of commented-out lines of code should be removed.(ò°éà8ÆƒÚ„í-
+xsquid:S001162"YRename this field "btn_addToPayee" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãˆĞŠ8äõØÜì-
+]"squid:SwitchLastCaseIsDefaultChecké""Add a default case to this switch.(†ùÊ™üÿÿÿÿ8ªµÈ…í-
+osquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(¨åÇƒşÿÿÿÿ8ªµÈ…í-
+ksquid:S1192g"MDefine a constant instead of duplicating this literal "HomeFragment" 5 times.(æµùí8½–†áì-
+asquid:HiddenFieldCheckJ":Rename "amount" which hides the field declared at line 44.(ÿ—ÙĞıÿÿÿÿ
+^squid:HiddenFieldCheck7"<Rename "rootView" which hides the field declared at line 40.(Ñ¯õ‘
+j
+squid:S128±"LEnd this switch case with an unconditional break, return or throw statement.(ºÊÏ¸8ªµÈ…í-
+qsquid:S3776–"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(™Ü©Â8ªµÈ…í-
+osquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(ÍûÉşÿÿÿÿ8ªµÈ…í-
+]"squid:SwitchLastCaseIsDefaultCheck©""Add a default case to this switch.(†ùÊ™üÿÿÿÿ8ªµÈ…í-
+o
+squid:S128ª"LEnd this switch case with an unconditional break, return or throw statement.(°ĞşÔüÿÿÿÿ8ªµÈ…í-
+ƒsquid:S1450*"eRemove the "AddBanificiaryCallBack" field and declare it as a local variable in the relevant methods.(¾µ²«8ªµÈ…í-
+ssquid:S00100Ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( †úıÿÿÿÿ8ªµÈ…í-
+o
+squid:S128¬"LEnd this switch case with an unconditional break, return or throw statement.(„È“€ùÿÿÿÿ8ªµÈ…í-
+psquid:S00117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³²ºç8ç¿ÕÜì-
+_squid:HiddenFieldCheckS"8Rename "note" which hides the field declared at line 44.(†Ëãšÿÿÿÿÿ
+Nsquid:S10680"0Remove this unused "responseCode" private field.(Õ›–ï8º¶Ã‹í-
+isquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(ñä’y8º¶Ã‹í-
+jsquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(“Î³Ö8º¶Ã‹í-

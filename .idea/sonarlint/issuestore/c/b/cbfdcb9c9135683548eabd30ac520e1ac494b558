@@ -1,0 +1,7 @@
+
+qsquid:S1192	"ZDefine a constant instead of duplicating this literal "QQ>>--null string for log" 5 times.(©¯õË
+csquid:S1192"GDefine a constant instead of duplicating this literal "QQ>>--" 4 times.(ÁöÃÐþÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š“”Ñøÿÿÿÿ
+.squid:S1700"Rename field "LOG"(à¡ª–øÿÿÿÿ
+jsquid:S3008"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¡ª–øÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(é¥ùö

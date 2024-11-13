@@ -1,0 +1,12 @@
+
+tsquid:S1450"XRemove the "dlgHeader" field and declare it as a local variable in the relevant methods.(Âû¦ƒûÿÿÿÿ
+Asquid:S1068"+Remove this unused "context" private field.(êÝç
+Xsquid:S2387";"context" is the name of a field in "CustomDialogFragment".(êÝç8á€õŠí-
+˜squid:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…óÜñ
+Isquid:S1068"-Remove this unused "dlgHeader" private field.(Âû¦ƒûÿÿÿÿ
+bsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(­óÃ“
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡í´¬
+isquid:S1301S"KReplace this "switch" statement by "if" statements to increase readability.(ŽºÖ8Æ‹í-
+ksquid:S00101P"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ž¡ø8Æ‹í-
+esquid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ8Æ‹í-
+W"squid:SwitchLastCaseIsDefaultCheckS""Add a default case to this switch.(ŽºÖ8Æ‹í-

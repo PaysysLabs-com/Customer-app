@@ -1,0 +1,11 @@
+
+jsquid:CommentedOutCodeLine»"<This block of commented-out lines of code should be removed.(ªÀœ“8â“ ¯ã-
+fsquid:S00100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýú¨¬
+fsquid:S1192a"JDefine a constant instead of duplicating this literal "Buat Akun" 4 times.(Å¶üÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheckK""Add a default case to this switch.(óíŒË
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(ÄßŸ
+fsquid:S1192M"ODefine a constant instead of duplicating this literal "Create Account" 4 times.(×ªÉØ
+ksquid:S00100^"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ£®¤ýÿÿÿÿ
+csquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(ò´ÿ¬
+P"squid:SwitchLastCaseIsDefaultCheck_""Add a default case to this switch.(óíŒË
+jsquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(ªÀœ“8©Åƒ¹ã-

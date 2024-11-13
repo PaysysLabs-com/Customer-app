@@ -1,0 +1,33 @@
+
+Asquid:S1444"*Make this "public static NONE" field final(­­ıñ
+Esquid:S1444	".Make this "public static MALAYSIA" field final(§ùà‰
+Fsquid:S1444
+"/Make this "public static INDONESIA" field final(óÜà»
+Esquid:S1444".Make this "public static SRILANKA" field final(É½ÿë
+Esquid:S1444")Make this "public static USA" field final(¹Ü±Îùÿÿÿÿ
+?squid:S1444"(Make this "public static UK" field final(“×…À
+Gsquid:S1444"+Make this "public static INDIA" field final(šœçüøÿÿÿÿ
+Msquid:S1444"1Make this "public static PHILIPPINES" field final(„‚¹òùÿÿÿÿ
+Jsquid:S1444".Make this "public static PAKISTAN" field final(ãŠñşÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"PMake NONE a static final constant or non-public and provide accessors if needed.(­­ıñ
+‚"squid:ClassVariableVisibilityCheck	"TMake MALAYSIA a static final constant or non-public and provide accessors if needed.(§ùà‰
+ƒ"squid:ClassVariableVisibilityCheck
+"UMake INDONESIA a static final constant or non-public and provide accessors if needed.(óÜà»
+‚"squid:ClassVariableVisibilityCheck"TMake SRILANKA a static final constant or non-public and provide accessors if needed.(É½ÿë
+‚"squid:ClassVariableVisibilityCheck"OMake USA a static final constant or non-public and provide accessors if needed.(¹Ü±Îùÿÿÿÿ
+|"squid:ClassVariableVisibilityCheck"NMake UK a static final constant or non-public and provide accessors if needed.(“×…À
+„"squid:ClassVariableVisibilityCheck"QMake INDIA a static final constant or non-public and provide accessors if needed.(šœçüøÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake PHILIPPINES a static final constant or non-public and provide accessors if needed.(„‚¹òùÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"TMake PAKISTAN a static final constant or non-public and provide accessors if needed.(ãŠñşÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š“”Ñøÿÿÿÿ
+fsquid:S3008"ORename this field "NONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­­ıñ
+jsquid:S3008	"SRename this field "MALAYSIA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ùà‰
+ksquid:S3008
+"TRename this field "INDONESIA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÜà»
+jsquid:S3008"SRename this field "SRILANKA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É½ÿë
+jsquid:S3008"NRename this field "USA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ü±Îùÿÿÿÿ
+dsquid:S3008"MRename this field "UK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“×…À
+lsquid:S3008"PRename this field "INDIA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šœçüøÿÿÿÿ
+rsquid:S3008"VRename this field "PHILIPPINES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„‚¹òùÿÿÿÿ
+osquid:S3008"SRename this field "PAKISTAN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãŠñşÿÿÿÿ
+Psquid:S1118":Add a private constructor to hide the implicit public one.(‘ÊW

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+               />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="Merchant Name: " />
+
+                    <TextView
+                        android:id="@+id/tv_confirmation_fromAccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/tv_confirmation_toAccountName"
+                    android:layout_alignParentBottom="true"
+                    android:padding="2dp"
+                    android:layout_alignRight="@+id/tv_confirmation_toAccountName">
+
+                    <TextView
+                        android:id="@+id/tv_Confirmation_Alias"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Amount: "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_confirmation_toAccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="Currency: " />
+
+                    <TextView
+                        android:id="@+id/tv_trans_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text=""
+                        android:maxLength="33"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="Country/City-Code: " />
+
+                    <TextView
+                        android:id="@+id/tv_confirmation_Country"
+                        android:layout_width="wrap_content"
+                        android:maxLength="23"
+                        android:text=""
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/edt_postPaidAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/edittext_bg"
+                android:hint="Amount (Full/Partial of Bill Amount)"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:paddingLeft="20dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_limitLBL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/lnr_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edt_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Comments (Optional)"
+                    android:imeOptions="actionNext"
+                    android:maxLength="50"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edt_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittext_bg"
+                    android:inputType="phone"
+                    android:hint="Phone (Optional)"
+                    android:imeOptions="actionNext"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/edt_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittext_bg"
+                    android:hint="Email (Optional)"
+                    android:imeOptions="actionDone"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="40"
+                    android:maxLines="1"
+                    android:paddingLeft="20dp"
+                    android:singleLine="true" />
+
+                <ImageButton
+                    android:id="@+id/btn_confirmation_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr_pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:text="Please enter your virtual card pin:" />
+
+                <EditText
+                    android:id="@+id/edt_otac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/edittext_bg"
+                    android:maxLines="1"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:visibility="gone"
+                    android:textAllCaps="true"
+                    android:paddingLeft="50dp" />
+
+                <com.mukesh.OtpView
+                    android:id="@+id/pinView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:inputType="numberPassword"
+                    android:itemBackground="@color/white"
+                    android:password="true"
+                    android:textColor="@android:color/black"
+                    app:itemCount="4"
+                    app:lineColor="@color/greenText"
+                    app:viewType="rectangle" />
+
+                <!--<com.dpizarro.pinview.library.PinView
+                    android:id="@+id/pinView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    pinview:password="true"
+                    pinview:numberPinBoxes="4"
+                    pinview:split="-"
+                    pinview:numberCharacters="1"
+                    pinview:textSizePinBox="20dp"
+                    pinview:textSizeTitles="18dp"
+                    pinview:deleteOnClick="false"
+                    pinview:keyboardMandatory="false"
+                    pinview:nativePinBox="false"
+                    pinview:colorTextPinBox="#00954d" />-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+

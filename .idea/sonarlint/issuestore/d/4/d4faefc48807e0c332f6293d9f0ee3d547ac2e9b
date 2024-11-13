@@ -1,0 +1,32 @@
+
+„squid:UselessImportCheck"`Remove this unused import 'com.example.mojaloop_app.Fragment.registration.RegistrationFragment'.(íÉ¢Ò
+c
+squid:S128í"LEnd this switch case with an unconditional break, return or throw statement.(ºÊÏ¸
+jsquid:UselessImportCheck "FRemove this unused import 'com.example.mojaloop_app.utils.UtilMethod'.(Œí¯³
+c
+squid:S128´"LEnd this switch case with an unconditional break, return or throw statement.(ºÊÏ¸
+nsquid:S14508"WRemove the "callback" field and declare it as a local variable in the relevant methods.(åÄ†“
+wsquid:S14509"`Remove the "callbackTransafer" field and declare it as a local variable in the relevant methods.(ĞÏ—Ñ
+V"squid:SwitchLastCaseIsDefaultCheckç""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+|squid:UselessImportCheck"XRemove this unused import 'com.example.mojaloop_app.model.Respose.ValidateUserResponse'.(ùæÇŸ
+hsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ
+nsquid:S00117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÉú€şÿÿÿÿ
+isquid:S00117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ö›Á
+ƒsquid:UselessImportCheck"ZRemove this unused import 'com.example.mojaloop_app.model.Respose.BalanceInquiryResponse'.(°çÄıÿÿÿÿ
+usquid:S00116>"VRename this field "reciver_fee" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À’Ï—8†Ïáâã-
+V"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(äÿœ”úÿÿÿÿ
+gsquid:S1301o"KReplace this "switch" statement by "if" statements to increase readability.(äÿœ”úÿÿÿÿ
+€squid:UselessImportCheck"WRemove this unused import 'com.example.mojaloop_app.model.Request.ValidateUserRequest'.(¼¤œ‡ùÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­«Œûÿÿÿÿ
+zsquid:UselessImportCheck"QRemove this unused import 'com.example.mojaloop_app.Activity.MainDrawerActivity'.(Ì¨ú‰üÿÿÿÿ
+V"squid:SwitchLastCaseIsDefaultCheck®""Add a default case to this switch.(†ùÊ™üÿÿÿÿ
+Esquid:S3398Ö"(Move this method into "onClickListener".(»œöûşÿÿÿÿ
+`squid:S1192Ó"IDefine a constant instead of duplicating this literal "OkDialog" 4 times.(±êñ;
+U"squid:SwitchLastCaseIsDefaultChecko""Add a default case to this switch.(äÿœ”úÿÿÿÿ
+isquid:UselessImportCheck"ERemove this unused import 'com.example.mojaloop_app.utils.Constants'.(Ù•—
+~squid:UselessImportCheck"URemove this unused import 'com.example.mojaloop_app.Fragment.ConfirmPaymentFragment'.(‹³Íÿıÿÿÿÿ
+csquid:HiddenFieldCheckC"<Rename "rootView" which hides the field declared at line 54.(»®ßÿşÿÿÿÿ
+†squid:S4144Š"nUpdate this method so that its implementation is not identical to "titleFetchUnSuccessfulHandler" on line 207.(Œ©ÅÉ
+Q"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ºÖ
+esquid:S00101Œ"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡ø
+csquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ºÖ

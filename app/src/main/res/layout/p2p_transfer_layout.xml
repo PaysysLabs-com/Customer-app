@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_number"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N/A"
+        android:textSize="18dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:hint="@string/amount"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receiver_details"
+        android:textColor="@color/btncolor"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+<!--        <LinearLayout-->
+<!--            android:id="@+id/liner_alias"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_below="@+id/et_answer"-->
+<!--            android:background="@drawable/spinner_transparnt_bg"-->
+<!--            android:layout_marginRight="10dp">-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/sp_alias"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:met_singleLineEllipsis="true"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_below="@+id/et_answer"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:hint="Alias"-->
+<!--                app:met_floatingLabel="highlight" />-->
+
+<!--        </LinearLayout>-->
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_Receiver_Alias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/receiver_alias"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_Receiver_Notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/notes"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_btn"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"  />
+    </LinearLayout>
+</ScrollView>

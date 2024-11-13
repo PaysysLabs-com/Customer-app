@@ -1,0 +1,7 @@
+
+[squid:S20953"DUse try-with-resources or close this "Buffer" in a "finally" clause.(®ÌÆÙ
+esquid:S2259C"IA "NullPointerException" could be thrown; "requestBody" is nullable here.(ÑîÎùúÿÿÿÿ
+_squid:S2259O"IA "NullPointerException" could be thrown; "requestBody" is nullable here.(Í½­Q
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßÌ¤
+?squid:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(àê–İ

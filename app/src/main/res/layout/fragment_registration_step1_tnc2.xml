@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/name_and_surname"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                app:met_floatingLabel="highlight"
+                app:met_singleLineEllipsis="true" />
+
+            <!--<com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Last Name"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                app:met_floatingLabel="highlight"
+                app:met_singleLineEllipsis="true" />-->
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/phone_number"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:singleLine="true"
+                app:met_floatingLabel="highlight"
+                app:met_singleLineEllipsis="true" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/email"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                app:met_floatingLabel="highlight"
+                app:met_singleLineEllipsis="true" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:editable="false"
+                android:hint="@string/date_of_birth"
+                app:met_floatingLabel="highlight"
+                app:met_singleLineEllipsis="true" />
+
+            <!--  <com.rengwuxian.materialedittext.MaterialEditText
+                  android:id="@+id/et_secretQuestion"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:hint="Secret Question"
+                  app:met_floatingLabel="highlight"
+                  app:met_singleLineEllipsis="true" />
+
+              <com.rengwuxian.materialedittext.MaterialEditText
+                  android:id="@+id/et_answer"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:hint="Answer"
+                  app:met_floatingLabel="highlight"
+                  app:met_singleLineEllipsis="true" />-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <CheckBox
+                    android:id="@+id/Cb_trem_condition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/btn_trem_contition"
+                    android:layout_toRightOf="@id/Cb_trem_condition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/i_read_and_accepted_terms_conditions"
+                    android:textColor="@color/btncolor" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/step1_btnContinue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/button_bg"
+                    android:text="@string/next"
+                    android:textColor="@android:color/white"
+                    android:textSize="17dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

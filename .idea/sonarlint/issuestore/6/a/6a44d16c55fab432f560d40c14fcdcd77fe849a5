@@ -1,0 +1,5 @@
+
+qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆ’—B
+nsquid:S00116"VRename this field "SplashTimer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å„õý
+csquid:HiddenFieldCheck"<Rename "rootView" which hides the field declared at line 15.(ÚŽ†Þûÿÿÿÿ
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ð†º·ýÿÿÿÿ

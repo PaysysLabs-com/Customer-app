@@ -1,0 +1,10 @@
+
+hsquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(µêŽùÿÿÿÿ
+squid:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íá–Ûþÿÿÿÿ
+}squid:S1450&"aRemove the "flashlightCheckBox" field and declare it as a local variable in the relevant methods.(…àûÒÿÿÿÿÿ
+|squid:S1450'"eRemove the "enableDecodingCheckBox" field and declare it as a local variable in the relevant methods.(ç¦“”
+Bsquid:S1068+"+Remove this unused "tokenID" private field.(ÞÈþï
+Zsquid:HiddenFieldCheckp":Rename "amount" which hides the field declared at line 41.(ª’=
+€"squid:ClassVariableVisibilityCheck)"RMake amount a static final constant or non-public and provide accessors if needed.(±±õÏ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹«´›ÿÿÿÿÿ
+3squid:S3626²"Remove this redundant jump.(ûÁÝ…
